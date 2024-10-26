@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#obox{
+    border: solid 1px;
+    height: 550px;
+    background-image: url(bg5.avif);
+    background-repeat: no-repeat;
+    background-size: 1290px 550px;
+}
+#navbox{
+    border: solid 1px white;
+    height: 50px;
+}
+ul li{
+    border: solid 1px white;
+    height: 50px;
+    width: 160px;
+    float: left;
+    background-color: #faebd752;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li:hover{
+    background-color: orange;
+}
+#out{
+    border: solid 1px white;
+    height: 460px;
+}
+#scrolltext{
+    color: white;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px white;
+}
+#welcome{
+    color: red;
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+}
+.menubox{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu{
+    border: solid 1px;
+    width: 150px;
+    height: 200px;
+   text-align: center;
+}

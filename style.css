@@ -1,0 +1,38 @@
+#box{
+    border: solid 1px;
+    height: 550px;
+    background-image: url(bg1.webp);
+    background-repeat: no-repeat;
+    background-size:1290px 590px ;
+}
+#rich{
+    text-align: center;
+    padding-top: 180px;
+    font-size: 50px;
+    color: white;
+}
+#register{
+    margin-left: 430px;
+}
+#register,#login{
+    height: 60px;
+    width: 200px;
+    background-color: gold;
+    font-size: 23px;
+}
+#register a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#login a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#register:hover{
+    background-color: palevioletred;
+}
+#login:hover{
+    background-color: palevioletred;
+}
